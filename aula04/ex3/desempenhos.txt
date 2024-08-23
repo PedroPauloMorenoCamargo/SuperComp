@@ -1,0 +1,5 @@
+Alocação Dinâmica Manual: 4 ms
+
+Usando std::vector: 5 ms
+
+Sendo assim, a alocação dinâmica manual foi mais rápida que a automática. Contudo, a utilização da da alocação automática permite uma maior segurança e robustez do código, uma vez que não requer a liberação manual da memória. Desse modo, impedindo erros como esquecer de liberar memória ou libera-la incorretamente.
