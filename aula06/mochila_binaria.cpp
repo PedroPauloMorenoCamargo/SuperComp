@@ -2,6 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
 
@@ -70,16 +71,19 @@ int main(int argc, char const *argv[]) {
 
     // Ajuste o nome do arquivo para corresponder ao seu arquivo de entrada
     lerArquivo("entrada4.txt", pesos, valores, capacidade, nItens);
-
+    auto inicio = chrono::high_resolution_clock::now();
     int valorMaximo = mochila(pesos, valores, capacidade, nItens, itensSelecionados);
+    auto fim = chrono::high_resolution_clock::now();
 
-    cout << "Valor máximo que pode ser carregado na mochila: " << valorMaximo << endl;
-
-    cout << "Itens selecionados (baseado em índice 0): ";
+    chrono::duration<double> duracao = fim - inicio;
+    cout << "Valor maximo que pode ser carregado na mochila: " << valorMaximo << endl;
+    cout << "Itens selecionados (baseado em indice 0): ";
     for (int i = 0; i < itensSelecionados.size(); i++) {
         cout << itensSelecionados[i] << " ";
     }
     cout << endl;
+
+    cout << "Tempo de execucao: " << duracao.count() << " segundos" << endl;
 
     return 0;
 }
