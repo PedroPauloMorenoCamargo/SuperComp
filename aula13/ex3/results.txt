@@ -1,0 +1,28 @@
+N = 10000
+
+Critical:
+0.00118689 segundos
+0.0012002 segundos
+0.00107649 segundos
+Média: 
+0.00115453 segundos
+Pré-Alocação:
+8.2422e-05 segundos
+0.000150543 segundos
+0.000165214 segundos
+Média: 
+0.00013273 segundos
+
+N = 100000
+Critical:
+0.00559773 segundos
+0.00568032 segundos
+0.00808869 segundos
+Média: 
+0.00645558 segundos
+Pré-Alocação:
+0.000370156 segundos
+0.0004039 segundos
+0.000382869 segundos
+Média: 
+0.00038564 segundos
