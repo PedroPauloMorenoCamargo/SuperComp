@@ -1,0 +1,139 @@
+Entrada1:
+
+Substituicao de Objeto:
+Peso: 363, Valor: 431, Tempo: 9.71e-05 segundos
+Peso: 363, Valor: 431, Tempo: 1.183e-04 segundos
+Peso: 379, Valor: 431, Tempo: 1.465e-04 segundos
+Peso: 372, Valor: 498, Tempo: 1.001e-04 segundos
+Peso: 363, Valor: 431, Tempo: 5.74e-05 segundos
+Peso: 363, Valor: 431, Tempo: 6.75e-05 segundos
+Peso: 315, Valor: 360, Tempo: 6.34e-05 segundos
+Peso: 372, Valor: 498, Tempo: 8.40e-05 segundos
+Peso: 374, Valor: 482, Tempo: 6.48e-05 segundos
+Peso: 372, Valor: 498, Tempo: 1.476e-04 segundos
+                    Média
+Peso: 366.6, Valor: 439.1, Tempo: 9.64e-05 segundos
+                Melhor Solução:
+Peso: 372, Valor: 498, Tempo: 8.40e-05 segundos
+
+Hill Climbing:
+Valor total: 498, Peso total: 372, Tempo: 0.0002949 segundos
+
+Entrada2:
+Distribuicao:
+Peso: 213, Valor: 452, Tempo: 0.000179 segundos
+Peso: 213, Valor: 452, Tempo: 0.0001688 segundos
+Peso: 185, Valor: 327, Tempo: 6.73e-05 segundos
+Peso: 222, Valor: 569, Tempo: 0.0001946 segundos
+Peso: 231, Valor: 564, Tempo: 0.0002597 segundos
+Peso: 194, Valor: 390, Tempo: 0.0002012 segundos
+Peso: 185, Valor: 327, Tempo: 0.0001365 segundos
+Peso: 185, Valor: 327, Tempo: 0.0001446 segundos
+Peso: 226, Valor: 513, Tempo: 0.0001136 segundos
+Peso: 213, Valor: 452, Tempo: 0.0001985 segundos
+Peso: 226, Valor: 513, Tempo: 0.0001552 segundos
+            Média
+Peso: 207.5, Valor: 445.0, Tempo: 0.0001648 segundos
+
+Melhor solução encontrada:
+Peso: 231, Valor: 564, Tempo: 0.0002597 segundos
+
+Hill Climbing:
+Valor total: 613, Peso total: 238, Tempo:0.0003229 segundos
+
+Entrada3:
+Distribuicao:
+Peso: 600, Valor: 583, Tempo: 9.19e-05 segundos
+Peso: 593, Valor: 623, Tempo: 3.51e-05 segundos
+Peso: 599, Valor: 615, Tempo: 4.80e-05 segundos
+Peso: 592, Valor: 627, Tempo: 0.0001244 segundos
+Peso: 599, Valor: 604, Tempo: 9.08e-05 segundos
+Peso: 598, Valor: 586, Tempo: 9.27e-05 segundos
+Peso: 600, Valor: 637, Tempo: 8.55e-05 segundos
+Peso: 580, Valor: 623, Tempo: 6.13e-05 segundos
+Peso: 593, Valor: 628, Tempo: 4.19e-05 segundos
+Peso: 599, Valor: 615, Tempo: 6.19e-05 segundos
+            Média
+Peso: 595.3, Valor: 614.1, Tempo: 7.56e-05 segundos
+
+Melhor solução encontrada:
+Peso: 600, Valor: 637, Tempo: 8.55e-05 segundos
+
+Hill Climbing:
+Valor total: 527, Peso total: 600, Tempo:  0.0003972 segundos
+
+
+Aula_Passada:
+Supercomp:
+
+Entrada1:
+
+Mochila Binaria:
+Peso: 380 Valor: 601, 6.979 segundos
+
+Distribuicao:
+Peso: 379 Valor: 318, 1.05e-05 segundos
+Peso: 376 Valor: 210, 1.13e-05 segundos
+Peso: 374 Valor: 261, 7.3e-06 segundos
+Peso: 373 Valor: 263, 1.43e-05 segundos
+Peso: 365 Valor: 201, 1.05e-05 segundos
+            Média
+Peso: 373.4 Valor: 250.6,  1.08e-05 segundos
+
+Embaralha:
+Peso: 375 Valor: 320, 1.19e-05 segundos
+Peso: 376 Valor: 341, 1.48e-05 segundos
+Peso: 367 Valor: 245, 8.7e-06 segundos
+Peso: 368 Valor: 333, 1.83e-05 segundos
+Peso: 371 Valor: 397, 8.5e-06 segundos
+            Média
+Peso: 371.4 Valor: 327.2, 1.23e-05  segundos
+
+Entrada2:
+
+Mochila Binaria: 
+
+Peso: 373 Valor: 870, 577.554 segundos
+
+Distribuicao:
+Peso: 236 Valor: 318, 1.34e-05 segundos
+Peso: 236 Valor: 289, 1.78e-05 segundos
+Peso: 233 Valor: 131, 1.52e-06 segundos
+Peso: 237 Valor: 187, 1.76e-05 segundos
+Peso: 235 Valor: 192, 3.17e-05 segundos
+            Média
+Peso: 235.4 Valor: 223.4, 5.166e-05 segundos
+
+
+Embaralha:
+Peso: 235 Valor: 264, 1.57e-05 segundos
+Peso: 236 Valor: 273, 1.06e-05 segundos
+Peso: 238 Valor: 176, 1.72e-05 segundos
+Peso: 239 Valor: 291, 1.4e-05 segundos
+Peso: 235 Valor: 242, 1.26e-05 segundos
+            Média
+Peso: 236.6 Valor: 249.2, 1.40e-05 segundos
+
+
+Entrada3:
+
+Mochila Binaria:
+Peso: 600 Valor: 648,  161.228 segundos
+
+Distribuicao:
+Peso: 594 Valor: 444, 1.05e-05 segundos
+Peso: 525 Valor: 415, 9.6e-06 segundos
+Peso: 541 Valor: 450, 1.05e-05 segundos
+Peso: 557 Valor: 274, 1.51e-05 segundos
+Peso: 599 Valor: 449, 1.09e-05 segundos
+            Média
+Peso: 563.2 Valor:406.4, 1.13e-05 segundos
+
+Embaralha:
+Peso: 599 Valor: 465, 8.7e-06 segundos
+Peso: 598 Valor: 486, 1.44e-05 segundos
+Peso: 597 Valor: 496, 1.4e-05 segundos
+Peso: 597 Valor: 407, 1.38e-05 segundos
+Peso: 600 Valor: 475, 9.5e-06 segundos
+            Média
+Peso: 598.2 Valor:465.8, 1.22e-05 segundos

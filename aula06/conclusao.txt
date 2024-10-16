@@ -1,0 +1,15 @@
+Entrada 01:
+Valor: 266, 1.48e-05 segundos
+
+Entrada 02:
+Valor: 156, 8.2e-06 segundos
+
+Entrada 03:
+Valor: 236, 3.07e-05 segundos
+
+Entrada 04:
+Valor: 55, 1.05e-05 segundos
+
+Conclusão:
+
+A busca exaustiva sempre encontra o maior valor, contudo, para entradas de grande complexidade irá demorar bastante tempo alem de consumir muita CPU e MEM.
