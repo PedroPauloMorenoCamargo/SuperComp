@@ -1,0 +1,5 @@
+1. Pi: 3.14196 , 0.003313 segundos
+2. Pi: 3.13708 , 0.00321 segundos
+3. Pi: 3.14548 , 0.003011 segundos
+4. Pi: 3.14456 , 0.00304 segundos
+5. Pi: 3.13828 , 0.003253 segundos
