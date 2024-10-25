@@ -1,0 +1,6 @@
+Processo 1 recebeu 1 do processo 0
+Processo 2 recebeu 1 do processo 1
+Processo 3 recebeu 1 do processo 2
+Processo 4 recebeu 1 do processo 3
+Processo 5 recebeu 1 do processo 4
+Processo 0 recebeu 1 do processo 5

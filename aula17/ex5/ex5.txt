@@ -1,0 +1,7 @@
+Processo 0 inicia com valor: 1
+Processo 1 recebeu soma parcial: 1 e adicionou seu valor 2 para totalizar: 3
+Processo 2 recebeu soma parcial: 3 e adicionou seu valor 3 para totalizar: 6
+Processo 3 recebeu soma parcial: 6 e adicionou seu valor 4 para totalizar: 10
+Processo 4 recebeu soma parcial: 10 e adicionou seu valor 5 para totalizar: 15
+Processo 5 recebeu soma parcial: 15 e adicionou seu valor 6 para totalizar: 21
+Processo 5 exibe a soma total: 21
