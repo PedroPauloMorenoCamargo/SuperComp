@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     if (rank == 0) {
-        // Processo com rank 0 envia "Olá" e espera receber "Oi"
+
         std::string mensagem = "Olá";
         MPI_Send(mensagem.c_str(), mensagem.size() + 1, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
 
@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
         std::cout << resposta<<std::endl;
 
     } else if (rank == 1) {
-        // Processo com rank 1 recebe "Olá" e responde "Oi"
+
         char mensagem[5];
         MPI_Recv(mensagem, 5, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         std::cout << mensagem<<std::endl;
