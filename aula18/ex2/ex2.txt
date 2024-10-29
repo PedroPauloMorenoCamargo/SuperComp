@@ -1,0 +1,5 @@
+Processo raiz definindo número de iterações: 1000
+Processo 0 - Resultado local: 459.277
+Processo 2 - Resultado local: 459.277
+Processo 3 - Resultado local: 459.277
+Processo 1 - Resultado local: 459.277
