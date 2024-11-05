@@ -1,0 +1,4 @@
+Para proteger o código contra divisões desiguais (ou "estranhas") dos dados quando o número total de
+elementos da matriz não é divisível igualmente pelo número de processos, é possível usar MPI_Scatterv
+em vez de MPI_Scatter. MPI_Scatterv permite enviar blocos de tamanhos diferentes para cada processo,
+ajustando automaticamente a divisão dos dados.
