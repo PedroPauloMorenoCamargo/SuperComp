@@ -1,0 +1,14 @@
+a) O modelo de memória compartilhada conisiste em dois cores ou mais que compartilham a mesma memória principal.
+O modelo de memória distribuída consiste em vários cores que possuem memória própria e se comunicam através de uma rede.
+Openmp faz parte do modelo de memória compartilhada. Já MPI faz parte do modelo de memória distribuída. Além disso, o 
+método thrust faz parte do modelo de memória compartilhada,dado que o thrust é uma biblioteca de programação paralela para CUDA.
+
+b) O escalonamento dinâmico em OpenMP consiste em atribuir blocos de iterações às threads durante a execução do programa. 
+À medida que uma thread conclui sua tarefa, ela solicita dinamicamente o próximo bloco disponível de iterações. 
+Essa abordagem é vantajosa em aplicações de processamento de dados com variabilidade de carga entre as iterações 
+porque evita ociosidade nas threads.
+
+Em problemas onde o tempo de execução de cada iteração pode variar (por exemplo, processamento de dados heterogêneos ou com cálculos 
+imprevisíveis), o escalonamento dinâmico permite um balanceamento de carga mais eficiente. Diferentemente do escalonamento estático,
+onde as tarefas são divididas previamente e de forma fixa, o escalonamento dinâmico ajusta as atribuições conforme a execução, 
+reduzindo o tempo total de processamento e garantindo melhor utilização dos recursos.
